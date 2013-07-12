@@ -1,0 +1,8 @@
+{
+  "sha": "32c93c1fc04c153c260d6a36c8f2c5541364a51e",
+  "sources": {
+    "homebrew": {
+      "locked_version": "1.3.2"
+    }
+  }
+}

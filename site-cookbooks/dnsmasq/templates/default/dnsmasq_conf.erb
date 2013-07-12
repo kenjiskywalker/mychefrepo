@@ -1,0 +1,3 @@
+<% node[:dnsmasq][:address].each do |domain, ipaddress| %>
+address=/<%= domain %>/<%= ipaddress %>
+<% end -%>
