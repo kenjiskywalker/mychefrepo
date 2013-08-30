@@ -35,7 +35,6 @@ end
 
 execute "build-perl" do
   user #{username}
-#  environment 'HOME' => "/#{homedir}"
   command <<-EOH
         /#{homedir}/.plenv/bin/plenv rehash
         /#{homedir}/.plenv/plugins/perl-build/bin/plenv-install #{version}
